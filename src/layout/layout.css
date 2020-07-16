@@ -12,6 +12,10 @@ header div {
     width: 40%;
 }
 
+header h2 a {
+    font-size: 1.2em;
+}
+
 #navDiv {
     display: flex;
     justify-content: center;
@@ -52,7 +56,8 @@ nav ul li a:hover {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 13vh;
+      min-height: 13vh;
+      padding: 3em 0;
   }
 
   .footerDiv {
@@ -62,6 +67,31 @@ nav ul li a:hover {
       align-items: center;
   }
 
+  .socialUL {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2em;
+  }
+
+  .socialUL li {
+      list-style: none;
+      margin: 0 15px;
+  }
+
+  .socialUL li a {
+      text-decoration: none;
+  }
+
+  .socialUL li a i {
+      font-size: 1.75em;
+  }
+
+  .socialUL li a i:hover {
+      color: #5e75a7;
+  }
+
   .footerDiv p {
-      margin-top: 10px;
+      font-size: 0.9em;
+      margin-top: 20px;
   }
