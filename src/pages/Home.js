@@ -1,14 +1,13 @@
 import React from 'react';
 
-import '../layout.css';
+import '../layout/layout.css';
 
-function BodyContainer() {
+function Home() {
     return (
         <main className="container">
             <h1>Developing Your Projects For Modern Times</h1>
         </main>
     )
 }
-;
-export default BodyContainer;
-;
+
+export default Home;

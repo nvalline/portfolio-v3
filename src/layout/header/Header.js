@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import Nav from './Nav.js';
 
 import '../layout.css';
@@ -8,7 +10,7 @@ function Header() {
         <header>
             <div>
                 <h2>
-                    Nate Valline
+                    <Link to="/">Nate Valline</Link>
                 </h2>
             </div>
             <div id="navDiv">

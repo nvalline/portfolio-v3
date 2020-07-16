@@ -4,7 +4,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 3em 0;
+    height: 13vh;
 }
 
 header div {
@@ -30,7 +30,6 @@ nav ul li {
 
 nav ul li a {
     font-weight: bold;
-    text-decoration: none;
 }
 
 nav ul li a:hover {
@@ -40,7 +39,7 @@ nav ul li a:hover {
 /* Body Styles */
 .container {
     background-image: url("../img/background.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 77vh;
   }
