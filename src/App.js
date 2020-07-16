@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
+import Footer from './layout/footer/Footer';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/my-work" component={Work} />
         <Route exact path="/contact" component={Contact} />
+        <Footer />
       </div>
     </Router>
   );

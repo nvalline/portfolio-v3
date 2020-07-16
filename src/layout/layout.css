@@ -1,6 +1,7 @@
 /* Header Styles */
 header {
-    background-color: #4ac7e9;
+    background-color: #5ad1f2;
+    border-bottom: 3px solid #f0d43a;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -41,5 +42,26 @@ nav ul li a:hover {
     background-image: url("../img/background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 77vh;
+    height: 74vh;
+  }
+
+  /* Footer Styles */
+  footer {
+      background-color: #5ad1f2;
+      border-top: 3px solid #f0d43a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 13vh;
+  }
+
+  .footerDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .footerDiv p {
+      margin-top: 10px;
   }
