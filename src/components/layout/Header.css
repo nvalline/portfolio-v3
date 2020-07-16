@@ -1,0 +1,37 @@
+header {
+    background-color: #4ac7e9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em 0;
+}
+
+header div {
+    width: 40%;
+}
+
+#navDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #5e75a7;
+}
