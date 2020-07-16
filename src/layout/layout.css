@@ -1,3 +1,4 @@
+/* Header Styles */
 header {
     background-color: #4ac7e9;
     display: flex;
@@ -35,3 +36,11 @@ nav ul li a {
 nav ul li a:hover {
     color: #5e75a7;
 }
+
+/* Body Styles */
+.container {
+    background-image: url("../img/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+  }

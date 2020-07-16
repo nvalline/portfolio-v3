@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Nav.js';
 
-import './Header.css';
+import '../layout.css';
 
 function Header() {
     return (
