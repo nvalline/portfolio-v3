@@ -1,18 +1,20 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
+import devices from '../img/devices1.jpg';
+
 function Tagline() {
     const history = useHistory();
     const goMyWork = () => history.push('my-work');
 
     return (
-        <div>
-            <div>
-                <h1 style={{ lineHeight: "1.5em" }}>Developing Your Projects <br /> For Modern Times</h1>
+        <div className="main-content">
+            <div className="tag-block">
+                <h1>Developing Your Projects For Modern Times</h1>
                 <button type="button" onClick={goMyWork}>See My Work</button>
             </div>
-            <div>
-                Video Component
+            <div className="img-block">
+                <img src={devices} alt="devices" className="img-home" />
             </div>
         </div>
     )
