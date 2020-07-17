@@ -2,7 +2,7 @@ import React from 'react';
 
 import Tagline from '../components/Tagline';
 
-import '../styles/layout.css';
+import '../styles/home.css';
 
 function Home() {
     return (
