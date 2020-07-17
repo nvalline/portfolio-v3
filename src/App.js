@@ -8,7 +8,7 @@ import Work from './pages/Work';
 import Contact from './pages/Contact';
 import Footer from './layout/footer/Footer';
 
-import './App.css';
+import './styles/App.css';
 
 function App() {
   return (

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Nav from './Nav.js';
 
-import '../layout.css';
+import '../../styles/layout.css';
 
 function Header() {
     return (
