@@ -11,7 +11,7 @@ function Tagline() {
         <div className="main-content">
             <div className="tag-block">
                 <h1>Developing Your Projects For Modern Times</h1>
-                <button type="button" onClick={goMyWork}>See My Work</button>
+                <button className="button" type="button" onClick={goMyWork}>View My Work</button>
             </div>
             <div className="img-block">
                 <img src={devices} alt="devices" className="img-home" />
