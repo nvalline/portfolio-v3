@@ -61,6 +61,29 @@ nav ul li a:hover {
     min-height: 70vh;
   }
 
+  .container-grid {
+    display: grid;
+    grid-template-areas: 
+        "left-col right-col";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+}
+
+.left-col {
+    grid-area: left-col;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-col {
+    grid-area: right-col;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
   /* Footer Styles */
   footer {
       grid-area: footer;

@@ -7,7 +7,7 @@ import '../styles/home.css';
 function HomeImage() {
     return (
         <div className="img-block">
-            <img src={homeImage} alt="devices" className="img-home" />
+            <img src={homeImage} alt="profile graphic" className="img-home" />
         </div>
     )
 }

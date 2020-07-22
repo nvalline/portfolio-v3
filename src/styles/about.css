@@ -1,0 +1,12 @@
+.about-block {
+    width: 80%;
+}
+
+.about-block h2 {
+    margin-bottom: 1em;
+}
+
+.about-block p {
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
