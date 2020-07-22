@@ -1,68 +1,117 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Name
 
-## Available Scripts
+# My Portfolio
 
-In the project directory, you can run:
+<img src="./portfolio-v3.png" alt="Project Screenshot" max-height="400px">
 
-### `npm start`
+> This portfolio is my third version.  For this version I have incorporated some of the latest technologies that I have learned.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### [View The Site](https://agile-sands-10651.herokuapp.com/) - The project is live.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+### Table of Contents
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Description](#description)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [How To Use](#how-to-use)
+- [Test(s)](#tests)
+- [Contributors](#contributors)
+- [Questions](#questions)
+- [License](#license)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Description
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+This application was built to showcase my most up-to-date coding knowledge, professional information and projects that I have created.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This React.js application is fully responsive and utilizes some new tech that I have learned on top of the information that I have been learning in the coding bootcamp.
 
-### `npm run eject`
+[Back To The Top](#project-name)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/portfolio-v3) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/portfolio-v3)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- React.js, Javascript, node.js, HTML, CSS
 
-## Learn More
+[Back To The Top](#project-name)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
 
-### Code Splitting
+Simply click the following link to load the application in your browser.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+#### [View The Site](https://agile-sands-10651.herokuapp.com/) - The project is live.
 
-### Analyzing the Bundle Size
+[Back To The Top](#project-name)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+---
 
-### Making a Progressive Web App
+## How To Use
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Once the application is loaded in the browser, simply click the navigation links or buttons to navigate throughout the application.
 
-### Advanced Configuration
+[Back To The Top](#project-name)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+---
 
-### Deployment
+## Tests
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+There are no tests.
 
-### `npm run build` fails to minify
+[Back To The Top](#project-name)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
+
+## Contributors
+
+- Nate Valline
+
+[Back To The Top](#project-name)
+
+---
+
+## Questions
+
+Please contact the following for any questions.
+
+<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="35px">  =>  contact@natevalline.com
+
+[Back To The Top](#project-name)
+
+---
+
+## License
+
+MIT License
+
+Copyright (c) 2020 Nate Valline
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[Back To The Top](#project-name)
+
+---
+    
