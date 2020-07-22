@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
-import devices from '../img/devices1.jpg';
+import homeImage from '../img/profile-image.png';
 
 function Tagline() {
     const history = useHistory();
@@ -14,7 +14,7 @@ function Tagline() {
                 <button className="button" type="button" onClick={goMyWork}>View My Work</button>
             </div>
             <div className="img-block">
-                <img src={devices} alt="devices" className="img-home" />
+                <img src={homeImage} alt="devices" className="img-home" />
             </div>
         </div>
     )
