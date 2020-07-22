@@ -6,7 +6,7 @@
 
 > This portfolio is my third version.  For this version I have incorporated some of the latest technologies that I have learned.
 
-#### [View The Site](https://agile-sands-10651.herokuapp.com/) - The project is live.
+#### [View The Site](https://nvalline.github.io/portfolio-v3/) - The project is live.
 
 ---
 
@@ -47,7 +47,7 @@ This React.js application is fully responsive and utilizes some new tech that I 
 
 Simply click the following link to load the application in your browser.
 
-#### [View The Site](https://agile-sands-10651.herokuapp.com/) - The project is live.
+#### [View The Site](https://nvalline.github.io/portfolio-v3/) - The project is live.
 
 [Back To The Top](#project-name)
 
