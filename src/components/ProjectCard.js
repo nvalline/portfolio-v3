@@ -2,9 +2,9 @@ import React from 'react';
 
 import '../styles/work.css';
 
-function ProjectCard({ id, title, description, link, repoLink, image }) {
+function ProjectCard({ title, description, link, repoLink, image }) {
     return (
-        <div className="project-card" key={id}>
+        <div className="project-card">
             <div className="project-img">
                 <img src={image} alt="project" />
             </div>

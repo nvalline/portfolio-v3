@@ -10,18 +10,16 @@ function ProjectContainer() {
         <div className="project-container">
             <h2>Some Of My Work</h2>
             <div className="project-block">
-                {data.map(project => {
-                    return (
-                        <ProjectCard
-                            id={project.id}
-                            title={project.title}
-                            description={project.description}
-                            link={project.link}
-                            repoLink={project.repoLink}
-                            image={project.img}
-                        />
-                    )
-                })}
+                {data.map(project => (
+                    <ProjectCard
+                        key={project.id}
+                        title={project.title}
+                        description={project.description}
+                        link={project.link}
+                        repoLink={project.repoLink}
+                        image={project.img}
+                    />
+                ))}
             </div>
         </div>
     )
