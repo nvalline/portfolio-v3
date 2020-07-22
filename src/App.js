@@ -13,7 +13,7 @@ import './styles/App.css';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="main">
         <Header />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />

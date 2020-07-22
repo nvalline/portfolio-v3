@@ -1,11 +1,22 @@
+.main {
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "container container"
+        "footer footer";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 10vh auto auto;
+
+}
+
 /* Header Styles */
 header {
+    grid-area: header;
     background-color: #5ad1f2;
     border-bottom: 3px solid #f0d43a;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 13vh;
 }
 
 header div {
@@ -43,23 +54,21 @@ nav ul li a:hover {
 
 /* Body Styles */
 .container {
+    grid-area: container;
     background-image: url("../img/background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 70vh;
   }
 
   /* Footer Styles */
   footer {
+      grid-area: footer;
       background-color: #5ad1f2;
       border-top: 3px solid #f0d43a;
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 13vh;
       padding: 3em 0;
   }
 

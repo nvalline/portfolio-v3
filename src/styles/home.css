@@ -1,13 +1,17 @@
-.main-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 85%;
+
+.container-grid {
+    display: grid;
+    grid-template-areas: 
+        "left-col right-col";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
 }
 
-.main-content div {
+.left-col {
+    grid-area: left-col;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-content: center;
 }
 
 .tag-block {
@@ -15,17 +19,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-  }
-  
-  .tag-block h1 {
-      font-size: 2.5em;
-      line-height: 1.5em;
+    width: 80%;
+}
+
+.tag-block h1 {
+    font-size: 2.5em;
+    line-height: 1.5em;
+    text-align: center;
 }
 
 /* Home Image Styles */
+.right-col {
+    grid-area: right-col;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-block {
-    max-width: 45%;
+    max-width: 100%;
 }
 
 .img-home {
