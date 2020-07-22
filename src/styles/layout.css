@@ -54,7 +54,7 @@ nav ul li a:hover {
 /* Body Styles */
 .container {
     grid-area: container;
-    background-image: url("/img/background.png");
+    background-image: url("../img/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 70vh;
