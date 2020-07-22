@@ -21,6 +21,7 @@ a {
     border: 1px solid #bba421;
     border-radius: 10px;
     color: #3b4a6b;
+    cursor: pointer;
     font-size: 1.2em;
     margin-top: 1.5em;
     padding: 0.5em 1.25em;

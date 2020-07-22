@@ -1,9 +1,15 @@
 import React from 'react';
 
+import ProjectContainer from '../components/ProjectContainer';
+
+import '../styles/work.css';
+
 function Work() {
     return (
-        <main className="container">
-            <h1>My Work Page</h1>
+        <main className="container container-grid">
+            <div className="left-col work">
+                <ProjectContainer />
+            </div>
         </main>
     )
 }
