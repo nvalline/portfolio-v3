@@ -22,3 +22,12 @@
     max-width: 450px;
     width: 100%;
 }
+
+ /* MAX SCREEN WIDTH 786px */
+ @media only screen and (max-width: 768px) {
+    .img-block {
+        margin-top: 2em;
+        max-width: 80%;
+        padding-left: 2em;
+    }
+  }

@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Comfortaa', cursive;
+  font-size: 16px;
   color: #3b4a6b;
 }
 
@@ -30,4 +31,11 @@ a {
 .button:hover {
     background-color: #e4d05b;
     color: #1a3468;
+}
+
+ /* MAX SCREEN WIDTH 786px */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
 }

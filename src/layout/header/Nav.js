@@ -7,7 +7,7 @@ function Nav() {
     return (
         <nav>
             <ul>
-                <li>
+                <li className="hide">
                     <Link to="/">Home</Link>
                 </li>
                 <li>

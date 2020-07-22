@@ -8,7 +8,7 @@ import '../../styles/layout.css';
 function Header() {
     return (
         <header>
-            <div>
+            <div id="logoDiv">
                 <h2>
                     <Link to="/">Nate Valline</Link>
                 </h2>
