@@ -15,10 +15,10 @@ function App() {
     <Router>
       <div className="main">
         <Header />
-        <Route exact path="portfolio-v3/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/my-work" component={Work} />
-        <Route exact path="/contact" component={Contact} />
+        <Route exact path="./" component={Home} />
+        <Route exact path="./about" component={About} />
+        <Route exact path="./my-work" component={Work} />
+        <Route exact path="./contact" component={Contact} />
         <Footer />
       </div>
     </Router>
