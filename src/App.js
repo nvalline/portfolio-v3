@@ -13,16 +13,16 @@ import './styles/App.css';
 function App() {
   return (
     <Router>
-      <Switch>
-        <div className="main">
-          <Header />
+      <div className="main">
+        <Header />
+        <Switch>
           <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
           <Route exact path={process.env.PUBLIC_URL + "/about"} component={About} />
           <Route exact path={process.env.PUBLIC_URL + "/my-work"} component={Work} />
           <Route exact path={process.env.PUBLIC_URL + "/contact"} component={Contact} />
-          <Footer />
-        </div>
-      </Switch>
+        </Switch>
+        <Footer />
+      </div>
     </Router>
   );
 }
