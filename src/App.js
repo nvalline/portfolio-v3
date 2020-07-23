@@ -16,10 +16,10 @@ function App() {
       <Switch>
         <div className="main">
           <Header />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/my-work" component={Work} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+          <Route exact path={process.env.PUBLIC_URL + "/about"} component={About} />
+          <Route exact path={process.env.PUBLIC_URL + "/my-work"} component={Work} />
+          <Route exact path={process.env.PUBLIC_URL + "/contact"} component={Contact} />
           <Footer />
         </div>
       </Switch>

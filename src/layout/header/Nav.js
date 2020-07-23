@@ -8,16 +8,16 @@ function Nav() {
         <nav>
             <ul>
                 <li className="hide">
-                    <Link to="/">Home</Link>
+                    <Link to={process.env.PUBLIC_URL + "/"}>Home</Link>
                 </li>
                 <li>
-                    <Link to="/my-work">My Work</Link>
+                    <Link to={process.env.PUBLIC_URL + "/my-work"}>My Work</Link>
                 </li>
                 <li>
-                    <Link to="/about">About Me</Link>
+                    <Link to={process.env.PUBLIC_URL + "/about"}>About Me</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link>
                 </li>
             </ul>
         </nav>
