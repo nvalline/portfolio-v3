@@ -10,7 +10,7 @@ function Header() {
         <header>
             <div id="logoDiv">
                 <h2>
-                    <Link to="/">Nate Valline</Link>
+                    <Link to={process.env.PUBLIC_URL + "/"}>Nate Valline</Link>
                 </h2>
             </div>
             <div id="navDiv">
